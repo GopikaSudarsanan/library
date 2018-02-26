@@ -1,6 +1,3 @@
+import Logincomp from './src/components/Login';
 
-import { NativeModules } from 'react-native';
-
-const { RNReactNativeLoginComponent } = NativeModules;
-
-export default RNReactNativeLoginComponent;
+export { Logincomp };
